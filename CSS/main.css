@@ -1,0 +1,205 @@
+/***** base styles *****/
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * R
+ emove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+html {
+	font-size: 16px;
+}
+
+body {
+  background-color: #E7E5CB;
+/*background: linear-gradient(-45deg, #15b393, #7fb381, #7fb2b3,#8250e6);*/
+background-size: 400% 400%;
+animation: gradient 22s ease infinite;
+}
+.comingsoon {
+  /*font-size: 2em; */
+  padding: 100px;
+}
+.comingsoon  h1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #2e4733;
+}
+
+nav {
+    float: right;
+    padding: 2.8em, 2.8em;
+}
+
+
+nav ul li {
+  text-decoration: none;
+  font-size: 1.4em;
+  font-family: 'Signika Negative', sans-serif;
+  display:inline-block;
+  padding-right: 4em;
+/*  color: #2e4733;*/
+}
+
+nav ul li a:hover {
+  transition-duration: 0.7s;
+  background-color:#EEEFDA;
+  border-radius:18px;
+}
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+li a{
+  color: #152A3E;
+}
+
+li:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2.1em;
+  font-family: 'Lexend Tera', sans-serif;
+  color: #152A3E;
+}
+/*
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+} */
+
+footer {
+  text-align: center;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+footer p {
+  font-size: 65px;
+  margin: 0,auto;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+
+footer .social-icons p {
+  color: #7e8a79;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p :hover {
+  left: 10px;
+  background-color: #434061;
+  border-radius:100%
+
+
+}
+
+.mailto {
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.mailto :hover {
+  left: 10px;
+  background-color: #a8d498;
+}
+
+}
+
+a {
+  width: 25px;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/
