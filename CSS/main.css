@@ -50,15 +50,17 @@ html {
 }
 
 body {
+  font-size:1em;
   background-color: #E7E5CB;
-/*background: linear-gradient(-45deg, #15b393, #7fb381, #7fb2b3,#8250e6);*/
-background-size: 400% 400%;
-animation: gradient 22s ease infinite;
+  background-size: 400% 400%;
+  animation: gradient 22s ease infinite;
 }
+
 .comingsoon {
   padding: 100px;
   background-color: #899c86;
 }
+
 .comingsoon  h1{
   display: flex;
   text-align: center;
@@ -93,6 +95,11 @@ a:link {
   text-decoration: none;
 }
 
+a {
+  color: #2e4733;
+  text-decoration:none;
+}
+
 li a {
   color: #7d1e78;
   padding:4px;
@@ -116,10 +123,62 @@ h2 {
   text-align:center;
 }
 
-figure img {
-  width: 25%;
-  height:auto;
+.content-wrapper {
+  width:100%;
+  display:inline-block;
+  text-align: center;
 }
+
+.portfolio-wrapper {
+  padding-left:7%;
+  padding-right:7%;
+}
+
+
+
+h3,h4,p {
+  font-family: 'Lexend Tera', sans-serif;
+  color:#2e4733;
+}
+
+ h3 {
+  font-size:1.3em;
+ }
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  min-width: 55%;
+  max-width: 65%;
+  height:auto;
+  border-radius:5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+p,
+li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  align-items:baseline;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.home-portfolio-piece p {
+  font-size: .8em;
+  padding-top: 0;
+  padding-left:10%;
+  padding-right:10%;
+}
+
 
 footer {
   text-align: center;
