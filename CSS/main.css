@@ -73,7 +73,6 @@ nav {
     padding: 2.8em, 2.8em;
 }
 
-
 nav ul li {
   text-decoration: none;
   font-size: 1.4em;
@@ -86,11 +85,10 @@ nav ul li a:hover {
   transition-duration: 0.5s;
   background-color:#ba5d49;
   border-radius:18px;
-
 }
 
 a:link {
-  color: #18361e;
+  color: #37754a;
   background-color: transparent;
   text-decoration: none;
 }
@@ -142,11 +140,16 @@ h3,h4,p {
 }
 
  h3 {
-  font-size:1.3em;
+  font-size:1.6em;
  }
 
 figure {
   margin: 0;
+}
+
+figure:hover {
+  transition: all .3s ease-in-out;
+  transform: scale(1.1);
 }
 
 figure img {
@@ -174,6 +177,8 @@ li {
 
 .home-portfolio-piece p {
   font-size: .8em;
+  letter-spacing: .1px;
+  line-height: 16px;
   padding-top: 0;
   padding-left:10%;
   padding-right:10%;
