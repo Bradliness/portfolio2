@@ -148,7 +148,7 @@ figure {
 }
 
 figure:hover {
-  transition: all .3s ease-in-out;
+  transition: all .35s ease-in-out;
   transform: scale(1.1);
 }
 
@@ -184,6 +184,27 @@ li {
   padding-right:10%;
 }
 
+.skill-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+#skills {
+  width: 100%;
+  padding-top: 60px;
+}
 
 footer {
   text-align: center;
@@ -195,7 +216,7 @@ footer {
 }
 
 footer p {
-  font-size: 65px;
+  font-size: 35px;
   margin: 0,auto;
   display: flex;
   justify-content:center;
@@ -204,7 +225,7 @@ footer p {
 
 footer .social-icons {
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
 
 }
@@ -217,8 +238,8 @@ footer .social-icons p {
 }
 
 footer .social-icons p :hover {
-  left: 10px;
-  background-color: #434061;
+  padding: 2px;
+  background-color: #974061;
   border-radius:100%
 
 
@@ -238,9 +259,9 @@ footer .social-icons p :hover {
 
 }
 
-a {
+/*a {
   width: 25px;
-}
+} */
 /*
  * Clearfix: contain floats
  *
