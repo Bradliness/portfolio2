@@ -147,7 +147,7 @@ figure {
   margin: 0;
 }
 
-figure:hover {
+ .grow:hover {
   transition: all .35s ease-in-out;
   transform: scale(1.1);
 }
@@ -204,6 +204,50 @@ li {
 #skills {
   width: 100%;
   padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#about {
+  background-color: #899c86;
+  width:100%
+  padding-top: 60px;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #899c86;
+}
+
+figure {
+  padding: 3%;
+  padding-top: 5%;
+  margin-left: 4%;
+  float:left;
+}
+
+.mug  {
+  max-width: 325px;
+  border-radius:5px;
+  filter: blur(3px);
+  transition: all .35s ease-in-out;
+}
+
+.mug:hover {
+  filter: blur(0);
+  transition: all .20s ease-in-out;
+}
+
+.about-info {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h3, h4, p {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
 }
 
 footer {
@@ -257,7 +301,9 @@ footer .social-icons p :hover {
   background-color: #a8d498;
 }
 
-}
+/*~~~~@~~~styles for phones below ~~~~@~~~*/
+
+
 
 /*a {
   width: 25px;
