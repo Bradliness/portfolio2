@@ -83,28 +83,28 @@ nav ul li {
 
 nav ul li a:hover {
   transition-duration: 0.5s;
-  background-color:#ba5d49;
+  background-color: #a8d498;
   border-radius:18px;
 }
 
 a:link {
-  color: #37754a;
+  color: #071c0b;
   background-color: transparent;
   text-decoration: none;
 }
 
 a {
-  color: #2e4733;
+  color: #071c0b;
   text-decoration:none;
 }
 
 li a {
-  color: #7d1e78;
+  color: #304028;
   padding:4px;
 }
 
 li a:hover {
-  color:#9dba84
+  color:#071c0b
 }
 
 h1 {
@@ -222,12 +222,13 @@ li {
 figure {
   padding: 3%;
   padding-top: 5%;
+  padding-bottom: 5%;
   margin-left: 4%;
   float:left;
 }
 
 .mug  {
-  max-width: 325px;
+  max-width: 365px;
   border-radius:5px;
   filter: blur(3px);
   transition: all .35s ease-in-out;
@@ -248,15 +249,16 @@ h3, h4, p {
   display: flex;
   justify-content: center;
   padding: 1%;
+  padding-right:4%;
 }
 
 footer {
   text-align: center;
-  flex-direction:column;
+/*  flex-direction:column; */
   margin-left: auto;
   margin-right: auto;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 footer p {
@@ -279,26 +281,35 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 15px;
 }
 
-footer .social-icons p :hover {
-  padding: 2px;
-  background-color: #974061;
-  border-radius:100%
-
-
+footer .social-icons a:hover {
+  color: #702a85;
 }
+
+/*footer .social-icons :hover {
+  background-color: #a8d498;
+  border-radius:30px;
+  transition-duration: 0.3s;
+
+
+} */
 
 .mailto {
-  font-size: 1.8em;
+  font-size: 1.4em;
+  font-family: 'Lexend Tera', sans-serif;
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  padding:10px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .mailto :hover {
-  left: 10px;
   background-color: #a8d498;
+  border-radius: 18px;
+  transition-duration: 0.3s;
 }
 
 /*~~~~@~~~styles for phones below ~~~~@~~~*/
