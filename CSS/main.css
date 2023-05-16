@@ -329,11 +329,13 @@ footer .social-icons a:hover {
   nav ul li {
     display: block;
     padding-right: 0;
+    padding-left: 0;
   }
 
   .portfolio-wrapper {
     padding-left: 5%;
     padding-right: 5%;
+    display: block;
   }
 
   figure img {
@@ -348,11 +350,14 @@ footer .social-icons a:hover {
 
   .skill-wrapper {
     justify-content: flex-start;
+    justify-content: center;
   }
 
   .skill {
+    display: flex;
     width: 45%;
     margin: 5px;
+    justify-content: center;
   }
 
   footer {
