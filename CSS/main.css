@@ -315,6 +315,55 @@ footer .social-icons a:hover {
 
 /*~~~~@~~~styles for phones below ~~~~@~~~*/
 
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  nav ul li {
+    display: block;
+    padding-right: 0;
+  }
+
+  .portfolio-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  figure img {
+    min-width: 90%;
+    max-width: 100%;
+  }
+
+  .home-portfolio-piece p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .skill-wrapper {
+    justify-content: flex-start;
+  }
+
+  .skill {
+    width: 45%;
+    margin: 5px;
+  }
+
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .social-icons p {
+    font-size: 25px;
+  }
+}
 
 
 /*a {
