@@ -232,7 +232,7 @@ figure {
   max-width: 365px;
   border-radius:5px;
   filter: blur(3px);
-  transition: all .35s ease-in-out;
+  transition: all .95s ease-in-out;
 }
 
 .mug:hover {
@@ -315,7 +315,7 @@ footer .social-icons a:hover {
 
 /*~~~~@~~~styles for phones below ~~~~@~~~*/
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
   body {
     font-size: 14px;
   }
@@ -362,6 +362,7 @@ footer .social-icons a:hover {
 
   #about {
     display: block;
+    padding: 0;
   }
 
   .about-wrapper {
