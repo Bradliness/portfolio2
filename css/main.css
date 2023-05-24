@@ -149,12 +149,12 @@ figure {
 
  .grow:hover {
   transition: all .35s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 figure img {
-  min-width: 55%;
-  max-width: 65%;
+  min-width: 25%;
+  max-width: 55%;
   height:auto;
   border-radius:5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -172,13 +172,17 @@ li {
   display:flex;
   justify-content: center;
   align-items:center;
-/*  align-items:baseline; */
   text-align: center;
   padding-top: 40px;
+  paddingbottom:40px;
+  /flex-wrap: wrap;
+  padding-left: 7%;
+  padding-right: 7%;*/
 }
 
-.home-portfolio-peice {
-  min-width: 55%
+.home-portfolio-piece {
+  min-width: 40%;
+
 }
 
 .home-portfolio-piece p {
@@ -223,7 +227,21 @@ li {
 .about-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #899c86;
+}
+
+.about-info h3 {
+  font-size: 35px;
+}
+
+.about-info h4 {
+  font-size: 25px;
+}
+
+.about-info p {
+  font-size:19px;
+  letter-spacing: .01px; /* is px the right unit? whats up? */
 }
 
 figure {
@@ -235,14 +253,14 @@ figure {
 }
 
 .mug  {
-  max-width: 365px;
-  border-radius:5px;
-  filter: blur(3px);
+  max-width: 595px;
+  border-radius:7px;
+  filter: blur(0px);
   transition: all .95s ease-in-out;
 }
 
 .mug:hover {
-  filter: blur(0);
+  filter: blur(3px);
   transition: all .20s ease-in-out;
 }
 
@@ -289,19 +307,12 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
   padding-left: 15px;
+  font-size: 45px;
 }
 
 footer .social-icons a:hover {
   color: #5c9936;
 }
-
-/*footer .social-icons :hover {
-  background-color: #a8d498;
-  border-radius:30px;
-  transition-duration: 0.3s;
-
-
-} */
 
 .mailto {
   font-size: 1.4em;
@@ -312,6 +323,11 @@ footer .social-icons a:hover {
   /*padding-top: 10px; */
   padding-bottom: 35px;
 }
+
+ .mailto a br {
+   display:none;
+ }
+
 
 .mailto :hover {
   background-color: #a8d498;
@@ -328,7 +344,9 @@ footer .social-icons a:hover {
   }
 
   .content-wrapper {
-  align-items: center;
+    align-items: center;
+    align-content: center;
+    padding: none;
   }
 
   nav {
@@ -344,6 +362,14 @@ footer .social-icons a:hover {
     padding-left: 0;
     align-items: center;
   }
+
+   /* for any Skillcrush instructor who sees this-
+   please forgive me for using random padding
+   percentiles to fix my layout. I am sorry
+   but I am just not knowing why
+   there is small offsets on mobile. I plan
+   to continue to solve the mystery
+   but give me time. I'll get it */
 
   .portfolio-wrapper {
     padding-left: 5%;
@@ -405,15 +431,15 @@ footer .social-icons a:hover {
     font-size: 45px;
   }
 
-
-
   .mailto a{
-
-
     margin-left: auto;
     margin-right: auto;
+ }
+
+  .mailto a br{
+    display: flex;
   }
-}
+
 
 
 /*a {
