@@ -66,6 +66,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  font-size: 45px;
 }
 
 nav {
@@ -83,7 +84,7 @@ nav ul li {
 
 nav ul li a:hover {
   transition-duration: 0.5s;
-  background-color: #a8d498;
+  background-color: #5c9936;
   border-radius:18px;
 }
 
@@ -132,7 +133,14 @@ h2 {
   padding-right:7%;
 }
 
+#projects h3 {
+  font-size: 35px;
+}
 
+#projects p {
+  font-size: 16px;
+  line-height: normal;
+}
 
 h3,h4,p {
   font-family: 'Lexend Tera', sans-serif;
@@ -149,12 +157,12 @@ figure {
 
  .grow:hover {
   transition: all .35s ease-in-out;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 figure img {
   min-width: 25%;
-  max-width: 55%;
+  max-width: 60%;
   height:auto;
   border-radius:5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -182,7 +190,14 @@ li {
 
 .home-portfolio-piece {
   min-width: 40%;
+}
 
+.home-portfolio-piece h4 {
+  font-size:22px;
+}
+
+  .project-description {
+  font-size: 18px;
 }
 
 .home-portfolio-piece p {
@@ -324,13 +339,17 @@ footer .social-icons a:hover {
   padding-bottom: 35px;
 }
 
+.mailto a {
+  padding: 4px;
+}
+
  .mailto a br {
    display:none;
  }
 
 
 .mailto :hover {
-  background-color: #a8d498;
+  background-color: #5c9936;
   border-radius: 18px;
   transition-duration: 0.3s;
 }
